@@ -12,7 +12,7 @@ if __package__:
     from .nodes.nodes_llm import DaSiWa_LLMModelSelector, DaSiWa_LLMAnalyze
     from .nodes.nodes_inpaint import DaSiWa_InpaintCropPrep, DaSiWa_InpaintComposite
     from .nodes.nodes_enhanced_video_combine import DaSiWa_EnhancedVideoCombine
-    from .nodes.nodes_minimax_h3_director import MiniMaxH3Director
+    from .nodes.nodes_minimax_h3_director_tagged import MiniMaxH3Director
     from .nodes.nodes_minimax_h3_director_guide import MiniMaxH3DirectorGuide
     from .nodes.nodes_minimax_h3_cache import MiniMaxH3Cache
 
